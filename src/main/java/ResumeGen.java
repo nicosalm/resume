@@ -66,7 +66,7 @@ class ResumeGen implements Closeable {
                     }
                     y -= 2f;
                     {
-                        float contactFontSize = 12f;
+                        float contactFontSize = 11f;
                         PDFont font = normal;
                         float sepwidth = .5f;
 
@@ -152,7 +152,7 @@ class ResumeGen implements Closeable {
                         y -= fh * .5f * lineSpacing;
                     }
                     {
-                        float textSize = 12f;
+                        float textSize = 11f;
                         float fh = fontHeight(normal, textSize);
                         float bulletIndent = 27f;
 
